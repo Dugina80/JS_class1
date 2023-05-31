@@ -118,13 +118,8 @@ class Employee {
     new Employee('Ksenia Tretiak', 'Loan Officer')
   ];
 
-  // Створюємо об'єкт класу EmpTable з масивом працівників
   const empTable = new EmpTable(employees);
-
-  // Отримуємо HTML-код таблиці
   const tableHtml = empTable.getHtml().outerHTML;
-
-  // Вставляємо таблицю на сторінку
   const employeeTable = document.getElementById('employeeTable');
   employeeTable.innerHTML = tableHtml;*/
 
